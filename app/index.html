@@ -1,0 +1,183 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+	<meta charset="utf-8">
+	<title>CoffeeNirvana | Homepage</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+	<link rel="shortcut icon" href="/favicon.ico">
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<!-- build:css(.) styles/vendor.css -->
+	<!-- bower:css -->
+	<!-- endbower -->
+	<!-- endbuild -->
+	<!-- build:css(.tmp) styles/main.css -->
+	<link rel="stylesheet" href="styles/main.css">
+	<link href='http://fonts.googleapis.com/css?family=Lekton:400,400italic,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arimo:400,400italic,700|Fjalla+One|Anton|Questrial|Courgette' rel='stylesheet' type='text/css'>
+	<!-- endbuild -->
+  </head>
+  <body>
+	<!--[if lt IE 10]>
+	  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+
+
+	<div class="container-fluid">
+	  <div class="header">
+		<ul class="nav nav-pills pull-right main-menu">
+		  <li class="active"><a href="#">Home</a></li>
+		  <li><a href="about.html">About</a></li>
+		  <li><a href="#">Contact</a></li>
+		</ul>
+		<h3 class="text-muted">CoffeeNirvana</h3>
+	  </div>
+
+	  <div class="jumbotron">
+		<h1>It's coffee time!</h1>
+		<p class="lead">I think, therefore I've had my coffee</p>
+		<p><a class="btn btn-lg call-to-action" href="#">Enjoy! <span class="glyphicon glyphicon-arrow-down"></span></a></p>
+	  </div>
+
+
+
+		<!-- Coffee Menu -->
+	  <div class="row menu">
+		<div class="col-lg-12">
+		  <h4>Coffee Menu</h4>
+
+		  <table class="menu-table menu-coffee">
+			<tr>
+			  <th>Coffee</th>
+			  <th>Price</th>
+			  <th>Order</th>
+			</tr>
+		  </table>
+		 
+		</div>
+	  </div>
+
+		<!-- Drinks Menu -->
+	  <div class="row menu">
+		<div class="col-lg-12">
+		  <h4>Drinks Menu</h4>
+
+		  <table class="menu-table menu-drinks">
+			<tr>
+			  <th>Coffee</th>
+			  <th>Price</th>
+			  <th>Order</th>
+			</tr>
+		  </table>
+		 
+		</div>
+	  </div>
+
+		<!-- Food Menu -->
+	  <div class="row menu">
+		<div class="col-lg-12">
+		  <h4>Food Menu</h4>
+
+		  <table class="menu-table menu-food">
+			<tr>
+			  <th>Coffee</th>
+			  <th>Price</th>
+			  <th>Order</th>
+			</tr>
+		  </table>
+		 
+		</div>
+	  </div>
+
+			<!-- Orders -->
+	   <div class="row menu">
+		<div class="col-lg-12">
+		  <h4>My Order</h4>
+
+		  <table class="menu-table order-table">
+			<tr>
+			  <th>Coffee</th>
+			  <th>Price</th>
+			  <th>Order</th>
+			</tr>
+			<tr>
+			  <td>Mocha</td>
+			  <td class="price">6.95</td>
+			  <td class="remove-item"><span class="glyphicon glyphicon-remove span-remove"></td>
+			</tr>
+			<tr>
+			  <td>Latté with milk</td>
+			  <td class="price">8.75</td>
+			  <td class="remove-item"><span class="glyphicon glyphicon-remove span-remove"></td>
+			</tr>
+			<tfoot>
+				<tr>
+					<td></td>
+					<td><span class="glyphicon glyphicon-shopping-cart total-price"></span> Total Price</td>
+					<td class="order-price">0.00</td>
+				</tr>
+			</tfoot>
+		  </table>
+		<div class = "align-right"><button class="btn btn-md call-to-action btn-submit-order">Submit your order</button></div>		
+		 
+		</div>
+	  </div>  
+
+	  <!-- add new item to the menu (only for service staff) -->
+	  <div class="row menu add-new-item">
+	  	<div class="col-lg-12">
+			<h4>Add new item to the menu</h4>
+		  	<form  class = "form-additem">
+		  		<label for="name">Name</label><input type="text" id="name">
+		  		<label for="price">Price</label><input type="text" id="price">
+		  		<select name="select-menu" id="select-menu">
+		  			<option value="coffee">Coffee</option>
+		  			<option value="drinks">Drink</option>
+		  			<option value="food">Food</option>
+		  		</select>
+		  		<button class= "submit-item">Add new item</button>
+		  	</form>
+		  </div>
+	  </div>
+
+	  <div class="footer">
+		<p><span class="glyphicon glyphicon-heart"></span> from the CoffeeNirvana team</p>
+	  </div>
+
+	</div>
+
+
+	<!-- build:js(.) scripts/vendor.js -->
+	<!-- bower:js -->
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/affix.js"></script>
+	<script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/alert.js"></script>
+	<script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/button.js"></script>
+	<script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/carousel.js"></script>
+	<script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/collapse.js"></script>
+	<script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/dropdown.js"></script>
+	<script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tab.js"></script>
+	<script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/transition.js"></script>
+	<script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/scrollspy.js"></script>
+	<script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/modal.js"></script>
+	<script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/tooltip.js"></script>
+	<script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js"></script>
+	<!-- endbower -->
+	<!-- endbuild -->
+
+	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+	<script>
+	  (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+	  function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+	  e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+	  e.src='//www.google-analytics.com/analytics.js';
+	  r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+	  ga('create','UA-XXXXX-X');ga('send','pageview');
+	</script>
+
+		<!-- build:js({app,.tmp}) scripts/main.js -->
+		<script src="scripts/main.js"></script>
+		<script src="scripts/app.core.js"></script>
+		<!-- endbuild -->
+</body>
+</html>

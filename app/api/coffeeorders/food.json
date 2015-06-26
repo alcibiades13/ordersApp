@@ -1,0 +1,42 @@
+[
+	
+	{
+		"name": "Eggs Royale",
+		"price": 7.95
+	},
+	{
+		"name": "Bagel with Cream Cheese",
+		"price": 6.25
+	},
+	{
+		"name": "Pancakes with Maple-flavour Syrup",
+		"price": 6.33
+	},
+	{
+		"name": "Mexican Bourger",
+		"price": 5.29
+	},
+	{
+		"name": "Classic Hot-dog",
+		"price": 3.49
+	},
+	{
+		"name": "Chicken and Rib Combo",
+		"price": 11.25
+	},
+	{
+		"name": "BBQ Pork Ribs",
+		"price": 10.55
+	},
+		{
+		"name": "Chicken Caesar Salad",
+		"price": 4.55
+	},
+	{
+		"name": "Lasagne",
+		"price": 6.55
+	}    
+
+
+]
+
